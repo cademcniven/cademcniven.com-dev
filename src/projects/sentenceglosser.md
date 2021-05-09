@@ -2,7 +2,6 @@
 layout: _layout.njk
 tags: 
     - project
-contains_code: true
 description: A website that provides a gloss of a Japanese sentence. Meant to be embedded in Anki.
 title: Japanese Sentencer Gloss Utility For Anki
 ---

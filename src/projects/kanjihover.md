@@ -2,7 +2,6 @@
 layout: _layout.njk
 tags: 
     - project
-contains_code: true
 description: A script for Anki that provides information about a kanji by hovering over it.
 title: Kanji Hover
 ---

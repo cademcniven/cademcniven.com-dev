@@ -2,7 +2,6 @@
 layout: _layout.njk
 tags: 
     - project
-contains_code: true
 description: A Japanese sentence glossing utility for Anki. Finds words in a Japanese sentence, highlights them, and provides on-click definitions and links.
 title: JAGloss
 ---
