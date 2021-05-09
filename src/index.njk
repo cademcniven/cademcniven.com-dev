@@ -1,0 +1,24 @@
+---
+layout: _layout.njk
+title: Posts
+---
+
+<div id="posts">
+    <ul>
+        {%- for post in collections.post | reverse -%}
+        <li>
+            <div class="postListTitle">
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </div>
+            <div class="postListDate">
+                <time>{{ post.data.date | postDate }}</time> —&nbsp;
+                {%- for tag in post.data.tags -%}
+                {%- if tag !== 'post' -%}
+                <span class="tag">{{tag}}</span>
+                {%- endif -%}
+                {%- endfor -%}
+            </div>
+        </li>
+        {%- endfor -%}
+    </ul>
+</div>

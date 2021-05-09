@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ description }}">
+<meta name="theme-color" content="#ffffff">
+<meta name="twitter:dnt" content="on">
+<meta property="og:title" content="{{ title }} - {{ site_title }}">
+<meta property="og:site_name" content="{{ site_title }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://cademcniven.com{{ page.url }}">
+<meta property="og:description" content="{{ description }}">
+<link rel="canonical" href="https://cademcniven.com{{ page.url }}">
+<link rel="stylesheet" href="/styles/normalize.css">
+<link rel="stylesheet" href="/styles/site.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+{% if contains_code %}
+<script src="/scripts/prism.js" defer></script>
+<link rel="stylesheet" href="/styles/prism.css">
+{% endif %}
+<title>{{ title }} - {{ site_title }}</title>

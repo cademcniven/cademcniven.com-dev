@@ -1,0 +1,19 @@
+---
+layout: _layout.njk
+title: Projects
+---
+
+<div id="posts">
+    <ul>
+        {%- for project in collections.project -%}
+        <li>
+            <div class="postListTitle">
+                <a href="{{ project.url }}">{{ project.data.title }}</a>
+            </div>
+            <div class="postListDescription">
+                {{ project.data.description }}
+            </div>
+        </li>
+        {%- endfor -%}
+    </ul>
+</div>
