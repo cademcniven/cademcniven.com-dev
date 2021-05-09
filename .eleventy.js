@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 
@@ -44,6 +45,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addPlugin(syntaxHighlight);
+    eleventyConfig.addPlugin(lazyImagesPlugin);
 
     return {
         dir: {
