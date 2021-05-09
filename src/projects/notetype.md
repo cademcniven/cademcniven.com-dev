@@ -49,7 +49,7 @@ For example, if the `word` field contains the dictionary form of the word, but t
 
 `reading`
 
-This is for any pitch accent info you might use on your cards. If you're curious, I use [https://ankiweb.net/shared/info/932119536](https://ankiweb.net/shared/info/932119536). This field is added to the very bottom of the card.
+This is for any pitch accent info you might use on your cards. If you're curious, I use <https://ankiweb.net/shared/info/932119536>. This field is added to the very bottom of the card.
 
 `definition`
 

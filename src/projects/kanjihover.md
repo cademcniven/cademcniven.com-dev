@@ -57,4 +57,4 @@ Other than that, there very well may be more errors that come up. If you find an
 
 ## Sources
 
-This project uses the API provided by [https://kanjiapi.dev](https://kanjiapi.dev).
+This project uses the API provided by [kanjiapi.dev](https://kanjiapi.dev).

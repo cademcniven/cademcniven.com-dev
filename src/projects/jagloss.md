@@ -208,6 +208,6 @@ So you'll still need to include it on the front if you want it there.
 * [JMDict](https://www.edrdg.org/edrdg/licence.html)
 * [anki-persistence](https://github.com/SimonLammer/anki-persistence)
 * [TinySegmenter](http://chasen.org/~taku/software/TinySegmenter/)
-* https://kanjiapi.dev/
+* [kanjiapi.dev](https://kanjiapi.dev/)
 
 {% endraw %}
