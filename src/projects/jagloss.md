@@ -8,7 +8,7 @@ title: JAGloss
 ---
 
 # {{title}}
-
+{% raw %}
 A Japanese sentence glossing tool for Anki
 
 ![demo](/images/jagloss/demo.gif)
@@ -209,3 +209,5 @@ So you'll still need to include it on the front if you want it there.
 * [anki-persistence](https://github.com/SimonLammer/anki-persistence)
 * [TinySegmenter](http://chasen.org/~taku/software/TinySegmenter/)
 * https://kanjiapi.dev/
+
+{% endraw %}

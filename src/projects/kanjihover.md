@@ -29,7 +29,7 @@ A kanji script for Anki
 Add the following line to your note:
 
 ```html
-<script src ="_kanjiHover.js"></script>
+<script src="_kanjiHover.js"></script>
 ```
 
 **Note:** By default, Kanji Hover will not automatically scan your entire card. Instead, it is only active inside `<div id="kanjiHover">`. If you would like it to encompass the entire card, wrap the entire card in that div like so:
@@ -57,4 +57,4 @@ Other than that, there very well may be more errors that come up. If you find an
 
 ## Sources
 
-This project uses the API provided by https://kanjiapi.dev.
+This project uses the API provided by [https://kanjiapi.dev](https://kanjiapi.dev).

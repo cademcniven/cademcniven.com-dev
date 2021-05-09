@@ -31,7 +31,7 @@ A note type for learning Japanese with Anki
 
 ## How To Use
 
-Once you've used the download link at the top of this page, it should have imported a deck (with 1 card) into Anki. You can immediately delete this deck if you want, but sharing decks is currently the only way to share note types. Now you should have a note type called EminentV1 (or V2, 3, etc., I can't see the future). 
+Once you've used the download link at the top of this page, it should have imported a deck (with 1 card) into Anki. You can immediately delete this deck if you want, but sharing decks is currently the only way to share note types. Now you should have a note type called EminentV1 (or V2, 3, etc., I can't see the future).
 
 Now all you have to do is add new cards, or convert existing cards to this note type.
 
@@ -49,7 +49,7 @@ For example, if the `word` field contains the dictionary form of the word, but t
 
 `reading`
 
-This is for any pitch accent info you might use on your cards. If you're curious, I use https://ankiweb.net/shared/info/932119536. This field is added to the very bottom of the card.
+This is for any pitch accent info you might use on your cards. If you're curious, I use [https://ankiweb.net/shared/info/932119536](https://ankiweb.net/shared/info/932119536). This field is added to the very bottom of the card.
 
 `definition`
 

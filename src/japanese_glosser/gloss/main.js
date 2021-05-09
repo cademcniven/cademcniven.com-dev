@@ -29,7 +29,7 @@ if (GET.color)
   document.getElementById('result').style.backgroundColor = GET.color
 
 kuromoji
-  .builder({ dicPath: '../kuromoji/dict/' })
+  .builder({ dicPath: 'japanese_glosser/kuromoji/dict/' })
   .build(function (err, tokenizer) {
     km_tokenizer = tokenizer
     if (textInputBox.value.length > 0) {
