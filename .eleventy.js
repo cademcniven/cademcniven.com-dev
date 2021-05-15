@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const posthtml = require("posthtml");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/japanese_glosser");
@@ -23,12 +24,10 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
     });
 
-    //Minify css
     eleventyConfig.addFilter("cssmin", function (code) {
         return new CleanCSS({}).minify(code).styles;
     });
 
-    //Minify html
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
         // Eleventy 1.0+: use this.inputPath and this.outputPath instead
         if (outputPath && outputPath.endsWith(".html")) {
@@ -42,6 +41,16 @@ module.exports = function (eleventyConfig) {
 
         return content;
     });
+
+    eleventyConfig.addTransform("lazyLoad", function (content, outputPath) {
+        if (outputPath && outputPath.endsWith(".html")) {
+            return posthtml()
+                .use(require("posthtml-lazyload")({ loading: 'lazy' }))
+                .process(content, { sync: true }).html
+        }
+
+        return content;
+    })
 
     eleventyConfig.addPlugin(syntaxHighlight);
 
