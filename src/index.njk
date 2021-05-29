@@ -11,12 +11,13 @@ title: Posts
                 <a href="{{ post.url }}">{{ post.data.title }}</a>
             </div>
             <div class="postListDateAndTags">
-                <time>{{ post.data.date | postDate }}</time> —&nbsp;
+                <time>{{ post.data.date | postDate }}</time>
+                <!-- —&nbsp;
                 {%- for tag in post.data.tags -%}
                 {%- if tag !== 'post' -%}
                 <span class="tag">{{tag}}</span>
                 {%- endif -%}
-                {%- endfor -%}
+                {%- endfor -%} -->
             </div>
         </li>
         {%- endfor -%}

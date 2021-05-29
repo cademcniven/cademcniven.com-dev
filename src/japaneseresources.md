@@ -99,6 +99,11 @@ title: Japanese Resources
   * [Verb Pitch Accent](https://www.youtube.com/playlist?list=PLbEVYkEj81RzdzDWujEkfjJZrzsqV3Q8O)
   * [How to pronounce Japanese](https://www.youtube.com/playlist?list=PLbEVYkEj81RygblWa0aSf1CktZVMbal91)
   * [How to practice Japanese pronunciation](https://www.youtube.com/playlist?list=PLbEVYkEj81Rz4vG9r9Kh2LYzphHHxu7F5)
+* [Pitch Accent Notes](https://docs.google.com/document/d/1K_rjKEThU2uzzKv_WrcIw9tT9Ks_8dQkHZGggzMEJ-w/edit)
+
+## Writing
+
+* [Mass Generate Japanese Cloze Writing Cards in RTK or Kanken Order](https://ankiweb.net/shared/info/1369166309)
 
 ## Tools
 
@@ -132,6 +137,7 @@ title: Japanese Resources
 * [Visual Novel Stats](http://wiki.wareya.moe/Stats)
 * [vndb](https://vndb.org/)
 * [Novel Game Collection](https://novelgame.jp/)
+* [Game2Text](https://game2text.com/)
 
 ## Articles
 

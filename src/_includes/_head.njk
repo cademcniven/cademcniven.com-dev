@@ -11,19 +11,13 @@
 <link rel="canonical" href="https://cademcniven.com{{ page.url }}">
 
 <!-- capture the CSS content as a Nunjucks variable -->
-{% set normalize %}
-{% include "src/styles/normalize.css" %}
-{% endset %}
-
 {% set css %}
-{% include "src/styles/site.css" %}
-{% endset %}
-
-{% set prism %}
-{% include "src/styles/prism.css" %}
+  {% include "src/styles/normalize.css" %}
+  {% include "src/styles/site.css" %}
+  {% include "src/styles/prism.css" %}
 {% endset %}
 <!-- feed it through our cssmin filter to minify -->
 <style>
-  {{ normalize | cssmin | safe }}{{ css | cssmin | safe }}{{ prism | cssmin | safe }}
+  {{ css | cssmin | safe }}
 </style>
 <title>{{ title }} - {{ site_title }}</title>
