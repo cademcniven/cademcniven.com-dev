@@ -3,6 +3,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const posthtml = require("posthtml");
+const markdownIt = require('markdown-it');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/japanese_glosser");
@@ -18,6 +19,37 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("src/**/*.jpg");
     eleventyConfig.addWatchTarget("src/**/*.png");
     eleventyConfig.addWatchTarget("src/**/*.gif");
+
+    const markdownItOptions = {
+        html: true,
+        linkify: true
+    };
+
+    const md = markdownIt(markdownItOptions)
+        .use(require('markdown-it-footnote'))
+        .use(require('markdown-it-attrs'))
+        .use(function (md) {
+            // Recognize Mediawiki links ([[text]])
+            md.linkify.add("[[", {
+                validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
+                normalize: match => {
+                    const parts = match.raw.slice(2, -2).split("|");
+                    parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, "");
+                    match.text = (parts[1] || parts[0]).trim();
+                    match.url = `/notes/${parts[0].trim()}/`;
+                }
+            })
+        })
+
+    eleventyConfig.addFilter("markdownify", string => {
+        return md.render(string)
+    })
+
+    eleventyConfig.setLibrary('md', md);
+
+    eleventyConfig.addCollection("notes", function (collection) {
+        return collection.getFilteredByGlob(["src/notes/**/*.md", "index.md"]);
+    });
 
     //Get human readable dates for index.html
     eleventyConfig.addFilter("postDate", (dateObj) => {

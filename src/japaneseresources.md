@@ -122,6 +122,7 @@ title: Japanese Resources
 * [WorkAudioBook](http://www.workaudiobook.com/)
 * [Japanese Conjugation Pratice](http://baileysnyder.com/jconj/)
 * [In-browser Ebook Reader](https://ttu-ebook.web.app/)
+* [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
 ## Visual Novels
 
@@ -129,7 +130,7 @@ title: Japanese Resources
 * [List of Starter Visual Novels](https://docs.google.com/document/d/1KnyyDt7jimEz-dgeMSKymRaT2r3QKBPm9AzqZ6oUWAs/pub)
 * [Visual Novel Difficulty List](https://jpdb.io/visual-novel-difficulty-list)
 * [LLJ Visual Novel Difficulty List](https://docs.google.com/spreadsheets/d/1SAG9PEkocXatyk5zyRMnqa61WnPV2_ixnDISjtjQBSU/edit#gid=0)
-* [Jo-Mako's Readability List](https://docs.google.com/spreadsheets/d/1ukDIWSkh_xvpppPbgs1nUR2kaEwFaWlsJgZUlb9LuTs/edit#gid=822742203) 
+* [Jo-Mako's Readability List](https://docs.google.com/spreadsheets/d/1ukDIWSkh_xvpppPbgs1nUR2kaEwFaWlsJgZUlb9LuTs/edit#gid=822742203)
 * [DJT Reading List](https://docs.google.com/spreadsheets/d/1be-gX3ozkYBVbGVLAJHc8P6-gKCfZkVPRA_V6VaSQ00/pubhtml#)
 * [Untranslated Visual Novels for Beginners](https://i.imgur.com/dzXCyQY.png)
 * [Visual novels by reading difficulty](https://docs.google.com/spreadsheets/d/1bYavI7WJzNxEV2D6tT2Cj91R-RLCfS_9FaAzKLKxIog/edit#gid=668846208)
@@ -145,3 +146,4 @@ title: Japanese Resources
 * [An easy way to learn hiragana](https://coffeejapanesestuff.neocities.org/hiragana.html)
 * [Writing Japanese](https://tatsumoto-ren.github.io/blog/writing-japanese.html)
 * [Scientific Studies About Language Learning](https://web.archive.org/web/20190207213227/http://rtkwiki.koohii.com/wiki/Scientific_Studies_about_Learning)
+* [Shadowing: Who benefits and how? Uncovering a booming EFL teaching technique for listening comprehension](https://journals.sagepub.com/doi/10.1177/1362168815597504)

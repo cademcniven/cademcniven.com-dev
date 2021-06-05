@@ -1,0 +1,15 @@
+---
+title: About these notes
+---
+
+<p>These are random notes I've taken, in a format similar to a Digital Garden or
+    Zettelkasten. Clink one of the links from the list, or try visiting a <a
+        href="" id="randomNote">random note</a>.</p>
+
+<ul>
+    {% for note in collections.notes %}
+    <li><a href="{{note.url}}">{{note.data.title}}</a></li>
+    {% endfor %}
+</ul>
+
+<script src="../scripts/notes.js" defer></script>

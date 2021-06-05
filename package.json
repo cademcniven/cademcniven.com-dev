@@ -14,7 +14,11 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "clean-css": "^5.1.2",
     "html-minifier": "^4.0.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-attrs": "^4.0.0",
+    "markdown-it-footnote": "^3.0.3",
     "posthtml": "^0.15.2",
-    "posthtml-lazyload": "^1.0.9"
+    "posthtml-lazyload": "^1.0.9",
+    "title-case": "^3.0.3"
   }
 }
