@@ -45,6 +45,7 @@ title: Japanese Resources
 * [Learn Japanese with Noriko](https://www.youtube.com/channel/UCKa6jaRaKR9-n-cuWSBKqsA)
 * [家入レオ in the House Podcast](https://www.youtube.com/playlist?list=PLhKqNHE5QJLipLhZNvC12YFLszZyCFexI)
 * [Comprehensible Japanese](https://www.youtube.com/channel/UCXo8kuCtqLjL1EH6m4FJJNA)
+* [Number Listening Practice Tool](https://langpractice.com/japanese/)
 
 ## Watching
 
@@ -87,6 +88,14 @@ title: Japanese Resources
 * [Dictionary of Japanese Grammar](https://core6000.neocities.org/dojg/)
 * [imabi](https://www.imabi.net/)
 * [Pomax](https://pomax.github.io/nrGrammar/)
+* [Visualizing Japanese Grammar](https://www.youtube.com/playlist?list=PLId-mP2ZkaEAiLo95aj2-yng41BnhWvE9)
+* [日本語to旅](https://www.youtube.com/channel/UCJUQG9V0DuccWVOw8ovzTsQ/playlists)
+  * [N4 Grammar](https://www.youtube.com/watch?v=0_oEo8uoC_c&list=PLCLBHbUvkRGo5AJwrulwhBmrit0-5TiXT)
+  * [N3 Grammar](https://www.youtube.com/watch?v=WwpMZ_5gku4&list=PLCLBHbUvkRGrkA7_-DquG6g3KZSBSFVA7)
+  * [N2 Grammar](https://www.youtube.com/watch?v=qtuph-fkpck&list=PLCLBHbUvkRGp8sO_kydYNhUoxMlKxjZfY)
+  * [N1 Grammar](https://www.youtube.com/watch?v=RNj6opmrdLg&list=PLCLBHbUvkRGpEuX7DyMmJaIwcFmrZ1wfD)
+  * [テーマ別日本語](https://www.youtube.com/watch?v=6ggq7Pq9d-E&list=PLCLBHbUvkRGqZg1NevyB_I-octuZL7-ev)
+* [Wasabi's Online Japanese Grammar Reference](https://www.wasabi-jpn.com/japanese-grammar/wasabis-online-japanese-grammar-reference/)
 
 ## Pitch Accent
 
@@ -100,10 +109,15 @@ title: Japanese Resources
   * [How to pronounce Japanese](https://www.youtube.com/playlist?list=PLbEVYkEj81RygblWa0aSf1CktZVMbal91)
   * [How to practice Japanese pronunciation](https://www.youtube.com/playlist?list=PLbEVYkEj81Rz4vG9r9Kh2LYzphHHxu7F5)
 * [Pitch Accent Notes](https://docs.google.com/document/d/1K_rjKEThU2uzzKv_WrcIw9tT9Ks_8dQkHZGggzMEJ-w/edit)
+* [Japanese Pitch-Accent in 10 Minutes](https://www.youtube.com/watch?v=O6AoilGEers)
+* [Pitch Essentials 1 - Thinking About Word Level Pitch Accent](https://www.youtube.com/watch?v=kU-16QNWDA4)
+* [Pitch Essentials 2 - Thinking About Sentence Level Pitch Accent](https://www.youtube.com/watch?v=ElMee_jx7Mo)
+* [Why you have an accent and why listening is hard](https://twitter.com/OutlierLinguist/status/1147037040799883264)
 
 ## Writing
 
 * [Mass Generate Japanese Cloze Writing Cards in RTK or Kanken Order](https://ankiweb.net/shared/info/1369166309)
+* [Scriptorium](https://learnanylanguage.fandom.com/wiki/Scriptorium)
 
 ## Tools
 
@@ -121,7 +135,7 @@ title: Japanese Resources
 * [youtube-dl](https://github.com/ytdl-org/youtube-dl/)
 * [WorkAudioBook](http://www.workaudiobook.com/)
 * [Japanese Conjugation Pratice](http://baileysnyder.com/jconj/)
-* [In-browser Ebook Reader](https://ttu-ebook.web.app/)
+* [ttu Reader (In-browser Ebook Reader)](https://ttu-ebook.web.app/)
 * [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
 ## Visual Novels
@@ -147,3 +161,8 @@ title: Japanese Resources
 * [Writing Japanese](https://tatsumoto-ren.github.io/blog/writing-japanese.html)
 * [Scientific Studies About Language Learning](https://web.archive.org/web/20190207213227/http://rtkwiki.koohii.com/wiki/Scientific_Studies_about_Learning)
 * [Shadowing: Who benefits and how? Uncovering a booming EFL teaching technique for listening comprehension](https://journals.sagepub.com/doi/10.1177/1362168815597504)
+
+## Other
+
+* [Genki Exercises](https://sethclydesdale.github.io/genki-study-resources/)
+* [L-R Method](https://learnanylanguage.fandom.com/wiki/Listening-Reading_Method)

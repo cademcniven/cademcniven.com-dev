@@ -10,7 +10,7 @@ title: Kanji Hover
 
 A kanji script for Anki
 
-[Download](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV1)
+[Download](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV2.1)
 
 [Changelog](https://github.com/cademcniven/Kanji-Hover/blob/main/Changelog.md)
 
