@@ -60,6 +60,7 @@ title: Japanese Resources
   * Allows you to use your own subtitles on VRV or Crunchyroll
 * [Language Learning with Netflix](https://languagelearningwithnetflix.com/)
 * [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb?hl=en)
+* [SuperNative](https://supernative.tv/ja/)
 
 ## Reading
 
@@ -118,6 +119,12 @@ title: Japanese Resources
 
 * [Mass Generate Japanese Cloze Writing Cards in RTK or Kanken Order](https://ankiweb.net/shared/info/1369166309)
 * [Scriptorium](https://learnanylanguage.fandom.com/wiki/Scriptorium)
+
+## Shadowing
+* [SuperNative](https://supernative.tv/ja/)
+  * "Watch" mode lets you shuffle random clips endlessly, so you'll eventually find something good. This is only useful for single-sentence shadowing.
+* [Busshin Translation Club](https://www.youtube.com/channel/UCcu7Yxu4xhNMlwEaz18r_PA)
+  * Relaxed male speech. Some videos have Japanese subtitles.
 
 ## Tools
 
