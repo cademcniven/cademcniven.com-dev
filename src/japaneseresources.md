@@ -6,8 +6,7 @@ title: Japanese Resources
 ## Recommended Viewing/Reading
 
 * [Stephen Krashen on Language Acquisition](https://www.youtube.com/watch?v=NiTsduRreug)
-* [Reading When You DON'T Understand Can Actually Help You Learn?!](https://www.youtube.com/watch?v=PJxDWiEqq9c)
-* [Reading 100 Japanese kids books in 8 months](https://www.youtube.com/watch?v=4uzL6Izu4JA)
+* [Kitani Method](https://www.youtube.com/watch?v=rUFExxTeZhU)
 * [The Seven Secrets of Language Learning](https://www.youtube.com/playlist?list=PLFED4984055236DDE)
 * [Optimal Input](https://www.youtube.com/watch?v=S_j4JELf8DA)
 * [Anki Setup](https://animecards.site/ankisetup/)
@@ -56,11 +55,14 @@ title: Japanese Resources
 * [animebook](https://animebook.github.io/)
   * More info [here](https://github.com/animebook/animebook.github.io)
 * [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
+* [Memento](https://ripose-jp.github.io/Memento/)
 * [jimaku player](https://github.com/sheodox/jimaku-player)
   * Allows you to use your own subtitles on VRV or Crunchyroll
 * [Language Learning with Netflix](https://languagelearningwithnetflix.com/)
 * [Language Learning with Youtube](https://chrome.google.com/webstore/detail/language-learning-with-yo/jkhhdcaafjabenpmpcpgdjiffdpmmcjb?hl=en)
 * [SuperNative](https://supernative.tv/ja/)
+* [コロモノココロ](https://www.youtube.com/channel/UCY2zjuJhfiUoXBev626ZYnA)
+* [Atashin'chi](https://www.youtube.com/c/Atashinchi/featured)
 
 ## Reading
 
@@ -71,7 +73,8 @@ title: Japanese Resources
 * [syosetu](http://yomou.syosetu.com/rank/genretop/)
   * Most popular webnovel platform
   * [Collection of top 100 completed novels](https://mega.nz/file/2Y9yRCzI#WEykIKMfxk3W38gP2u6fPzBNqw8YP-Bd1iP1kqMvCGo), useful for [MorphMan](https://ankiweb.net/shared/info/900801631)'s readability analyzer. There's also this [yomichan format frequency list](https://mega.nz/file/fQ9VHAIA#P8M1dyLiM-JDb_Q0ZyeEw0cGIcNER6K2Iuh3HzNRPcI) based on those 100 novels.
-* [Tadoku](https://tadoku.org/japanese/book-search/?level=&series=&kind%5B%5D=040&kw=&order=register_desc)
+* [Tadoku Graded Readers](https://www.reddit.com/r/LearnJapanese/comments/o7x7ha/2021_updated_free_tadoku_graded_reader_pdfs_1796/)
+  * [Physical Versions](https://tadoku.org/japanese/book-search/?level=&series=&kind%5B%5D=040&kw=&order=register_desc)
 * [Reajer](https://reajer.weebly.com/)
 * [Hukumusume](http://www.hukumusume.com/douwa/0_6/index.html)
 * [Satori Reader](https://www.satorireader.com/)
@@ -125,6 +128,14 @@ title: Japanese Resources
   * "Watch" mode lets you shuffle random clips endlessly, so you'll eventually find something good. This is only useful for single-sentence shadowing.
 * [Busshin Translation Club](https://www.youtube.com/channel/UCcu7Yxu4xhNMlwEaz18r_PA)
   * Relaxed male speech. Some videos have Japanese subtitles.
+* [もしもしゆうすけ](https://www.youtube.com/channel/UCcCeJ3pQYFgvfVuMxVRWhoA)
+  * Conversational speech, male & female. Has subtitles.
+* [Onomappu](https://www.youtube.com/c/Onomappu/videos)
+  * 20ish y/o male speech. Has subtitles.
+* [4989 Utaco](https://www.youtube.com/channel/UCtEzeI6wZA-v-L-9ff0WZNA/videos)
+  * Female Speech. No subtitles, but scripts available on [her website](https://www.4989americanlife.com/blog)
+* [コロモノココロ](https://www.youtube.com/channel/UCY2zjuJhfiUoXBev626ZYnA)
+  * Female Speech. No subtitles.
 
 ## Tools
 
@@ -142,7 +153,8 @@ title: Japanese Resources
 * [youtube-dl](https://github.com/ytdl-org/youtube-dl/)
 * [WorkAudioBook](http://www.workaudiobook.com/)
 * [Japanese Conjugation Pratice](http://baileysnyder.com/jconj/)
-* [ttu Reader (In-browser Ebook Reader)](https://ttu-ebook.web.app/)
+* [ttu Reader](https://ttu-ebook.web.app/)
+  * In-browser ebook reader
 * [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
 ## Visual Novels

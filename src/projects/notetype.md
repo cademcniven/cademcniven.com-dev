@@ -2,7 +2,7 @@
 layout: _layout.njk
 tags: 
     - project
-description: A custom Anki note type for studying Japanese.
+description: A custom Anki note type for studying Japanese. Specifically optimized for subs2srs decks.
 title: Eminent Note Type
 ---
 
@@ -18,8 +18,8 @@ A note type for learning Japanese with Anki
 
 ## Features
 
-* [Kanji Hover](/kanjihover.html) on the front and back
-* [JAGloss](jagloss.html) on the back
+* [Kanji Hover](/projects/kanjihover) on the front and back
+* [JAGloss](/projects/jagloss) on the back
 * Highlighted target word on front, with the rest of the sentence dimmed to be less distracting
   * If no word is present in the field, the sentence won't be dimmed
 * Audio on back with audio icons hidden
