@@ -103,7 +103,7 @@ title: Japanese Resources
 
 ## Pitch Accent
 
-* [Dogen Phonetics](https://www.youtube.com/playlist?list=PLeK-ilb1gk6md2oCbjPh4Rl0lnXXOV22P)
+* [Dogen Phonetics](https://www.patreon.com/posts/japanese-index-16489306)
 * [Tips for Japanese Pitch Accent](https://gist.github.com/k3zi/3f38070efffa38db83cd5745d83b1235)
 * [Pitch Accent (Minimal Pairs)](https://kotu.io/tests/pitchAccent/minimalPairs)
 * [NHK Ojad Pitch Accent Deck](https://ankiweb.net/shared/info/1442436955)
