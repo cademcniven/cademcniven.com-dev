@@ -31,10 +31,11 @@ title: Japanese Resources
 * [Eminent Grammar](https://ankiweb.net/shared/info/567651789)
 * [Jo-Mako's Anki Decks](https://ankiweb.net/shared/byauthor/1988124792)
 * [Perditio's Anki Decks](https://ankiweb.net/shared/byauthor/960431736)
-* [JP1K](https://tatsumoto-ren.github.io/blog/jp1k-anki-deck.html)
+  * Tango decks are here
 * [Complete Jouyou Kanji Writing Deck](https://ankiweb.net/shared/info/759825185)
 * [Bushu Anki Deck (Forget the Kanji)](https://github.com/chriskempson/bushu-anki-deck)
 * [Core Anime Deck](https://ankiweb.net/shared/info/493795566)
+* [Kanji Components with Hiragana Names](https://ankiweb.net/shared/info/390273931)
 
 ## Listening
 
