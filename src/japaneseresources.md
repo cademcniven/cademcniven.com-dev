@@ -46,6 +46,7 @@ title: Japanese Resources
 * [家入レオ in the House Podcast](https://www.youtube.com/playlist?list=PLhKqNHE5QJLipLhZNvC12YFLszZyCFexI)
 * [Comprehensible Japanese](https://www.youtube.com/channel/UCXo8kuCtqLjL1EH6m4FJJNA)
 * [Number Listening Practice Tool](https://langpractice.com/japanese/)
+* [4989 Utaco](https://www.youtube.com/channel/UCtEzeI6wZA-v-L-9ff0WZNA)
 
 ## Watching
 
@@ -90,6 +91,7 @@ title: Japanese Resources
 * [Jo-Mako's Grammar Deck](https://ankiweb.net/shared/info/2133117190)
 * [Eminent Grammar Deck](https://ankiweb.net/shared/info/567651789)
 * [Cure Dolly](https://www.youtube.com/watch?v=pSvH9vH60Ig&list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj)
+* [Japanese Ammo with Misa](https://www.youtube.com/c/JapaneseAmmowithMisa/playlists)
 * [Dictionary of Japanese Grammar](https://core6000.neocities.org/dojg/)
 * [imabi](https://www.imabi.net/)
 * [Pomax](https://pomax.github.io/nrGrammar/)
@@ -102,7 +104,7 @@ title: Japanese Resources
   * [テーマ別日本語](https://www.youtube.com/watch?v=6ggq7Pq9d-E&list=PLCLBHbUvkRGqZg1NevyB_I-octuZL7-ev)
 * [Wasabi's Online Japanese Grammar Reference](https://www.wasabi-jpn.com/japanese-grammar/wasabis-online-japanese-grammar-reference/)
 
-## Pitch Accent
+## Speaking
 
 * [Dogen Phonetics](https://www.patreon.com/posts/japanese-index-16489306)
 * [Tips for Japanese Pitch Accent](https://gist.github.com/k3zi/3f38070efffa38db83cd5745d83b1235)
@@ -118,13 +120,17 @@ title: Japanese Resources
 * [Pitch Essentials 1 - Thinking About Word Level Pitch Accent](https://www.youtube.com/watch?v=kU-16QNWDA4)
 * [Pitch Essentials 2 - Thinking About Sentence Level Pitch Accent](https://www.youtube.com/watch?v=ElMee_jx7Mo)
 * [Why you have an accent and why listening is hard](https://twitter.com/OutlierLinguist/status/1147037040799883264)
+* [Your Japanese will sound more natural using the breathing technique](https://www.youtube.com/watch?v=s64R23LKhjw)
 
 ## Writing
 
 * [Mass Generate Japanese Cloze Writing Cards in RTK or Kanken Order](https://ankiweb.net/shared/info/1369166309)
 * [Scriptorium](https://learnanylanguage.fandom.com/wiki/Scriptorium)
+* [Add writing component to existing deck](https://github.com/infinyte7/Write-Kanji/tree/master/Add%20to%20Existing%20Deck%20(Kanji)/version%202.0)
+  * [Video Demo](https://www.youtube.com/watch?v=_dZeREl1TI8)
 
 ## Shadowing
+
 * [SuperNative](https://supernative.tv/ja/)
   * "Watch" mode lets you shuffle random clips endlessly, so you'll eventually find something good. This is only useful for single-sentence shadowing.
 * [Busshin Translation Club](https://www.youtube.com/channel/UCcu7Yxu4xhNMlwEaz18r_PA)
@@ -181,8 +187,10 @@ title: Japanese Resources
 * [Writing Japanese](https://tatsumoto-ren.github.io/blog/writing-japanese.html)
 * [Scientific Studies About Language Learning](https://web.archive.org/web/20190207213227/http://rtkwiki.koohii.com/wiki/Scientific_Studies_about_Learning)
 * [Shadowing: Who benefits and how? Uncovering a booming EFL teaching technique for listening comprehension](https://journals.sagepub.com/doi/10.1177/1362168815597504)
+* [Handwriting Is Better Than Typing When Learning A New Language, Study Finds](https://www.sciencealert.com/handwriting-is-better-than-typing-when-learning-to-read-study-finds)
 
 ## Other
 
 * [Genki Exercises](https://sethclydesdale.github.io/genki-study-resources/)
 * [L-R Method](https://learnanylanguage.fandom.com/wiki/Listening-Reading_Method)
+* [Rentry Mining Setup](https://rentry.co/mining)
