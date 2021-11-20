@@ -1,6 +1,7 @@
 {%- if tags != null -%}
 {%- if tags.includes("post") -%}
 <div id="postHeader">
+    <div id="postHeaderBackground">{{title}}</div>
     <div id="postHeaderContent"><h1 id="postTitle">{{title}}</h1>
         <div id="postDate">{{date | postDate}}</div>
         <div id="postDescription">{{description}}</div>
