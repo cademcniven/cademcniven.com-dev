@@ -38,3 +38,122 @@ For comprehensible input, the most important thing is context. Many people consi
 
 * Knowing what's being talked about beforehand
 * Vivid visuals
+
+
+
+
+
+It's difficult to create an automata that mimics living things, because it would need the ability to make decisions. The naive solution would be to allow it to choose from a list of things to do, with weighted options. The problem is that decision making isn't a calculation, and you can't really just throw a % on different behaviors and achieve something akin to sentience.
+
+
+
+
+When trying to teach a new idea, if at all possible, don't introduce new terminology. People are not good at processing complex ideas, and adding new made-up vocabulary makes it even more difficult, because it forces the learner to put mental energy into understanding semantics rather than focusing on the actual topic.
+
+
+
+
+<address>	Defines contact information for the author/owner of a document/article
+<bdi>	Isolates a part of text that might be formatted in a different direction from other text outside it
+<cite>	Defines the title of a work
+<dfn>	Specifies a term that is going to be defined within the content
+<kbd>	Defines keyboard input
+<meter>	Defines a scalar measurement within a known range (a gauge)
+<progress>	Represents the progress of a task
+<samp>	Defines sample output from a computer program
+<map>	Defines a client-side image map
+<details>	Defines additional details that the user can view or hide
+
+
+const myHeaders = new Headers();
+
+const myRequest = new Request('flowers.jpg', {
+  method: 'GET',
+  headers: myHeaders,
+  mode: 'cors',
+  cache: 'default',
+});
+
+fetch(myRequest)
+  .then(response => response.blob())
+  .then(myBlob => {
+    myImage.src = URL.createObjectURL(myBlob);
+  });
+  
+  
+  disabled buttons:
+  https://axesslab.com/disabled-buttons-suck/
+  https://css-tricks.com/making-disabled-buttons-more-inclusive/
+  https://stories.justinewin.com/disabled-buttons-dont-have-to-suck-10da0bb6d37e
+  
+  inaccessible default html:
+  https://daverupert.com/2020/02/html-the-inaccessible-parts/
+  
+  accessible fields and errors:
+  <div class="form-group">
+  <label for="password">
+    Password
+    <span class="required" aria-hidden="true">*</span>
+    <span class="sr-only">required</span>
+  </label>
+  <input 
+    type="password"
+    id="password"
+    name="password"
+    aria-describedby="desc_pw"
+  >
+  <p class="aside" id="desc_pw">Your password needs to have at least eight characters.</p>
+</div>
+
+on site fix <time> tags to have valid datetime
+
+firefox has better accessibility dev tools, particularly the accessibility tree
+
+role="presentation" can be used to make an element not appear in the accessibility tree. it is *only* needed on elements that come between composite widget roles, for example:
+
+<ul role="tree">
+  <div class="item-wrapper" role="presentation">
+    <li role="treeitem">
+      Item 1
+      <div role="group">
+        <ul class="sub-items" role="presentation">
+          <li role="treeitem">Sub-Item 1</li>
+          <li role="treeitem">Sub-Item 2</li>
+        </ul>
+      </div>
+    </li>
+    <li role="treeitem">Item 2</li>
+    <li role="treeitem">Item 3</li>
+  </div>
+</ul>
+
+role="presentation" is identical to role="none" but has more support
+
+role="presentation" is not aria-hidden="true"
+Applying aria-hidden to an element will remove that element and all its descendants from the accessibility tree entirely, while role="presentation/none" will only remove the element's default role. Both role="presentation/none" and aria-hidden="true" will have the same effect on an <img> tag, but not on an element with content or children.
+
+Using aria-owns to point to the id of another element entirely separated in the DOM will establish a programmatic parent/child relationship between the two nodes in the accessibility tree.
+
+^ source https://sarahmhigley.com/writing/roles-and-relationships/
+
+accessibility book:
+https://abookapart.com/products/accessibility-for-everyone
+
+<button aria-label="Close">
+  <span aria-hidden="true">×</span>
+</button>
+
+
+
+var makeActive = function(elem){
+    elem.classList.toggle("is-active");
+}
+
+
+You can have all the right technologies in place, use the latest and greatest tools, and even have extraordinarily talented individuals on board, but if everyone involved isn’t actually cooperating and communicating with one another then you’re not going to create great work. It’s as simple as that. 
+-- https://atomicdesign.bradfrost.com/chapter-4/
+
+managing state with CSS classes alone is, mostly, inadequate for conveying state to all users. Being a language for presentational purposes, giving an input a class of .has-error to change the border color to a shade of red, has no semantic value to it.
+-- https://css-tricks.com/user-facing-state/
+
+aria-pressed indicates whether or not a button has been pressed

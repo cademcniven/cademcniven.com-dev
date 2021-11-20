@@ -36,6 +36,7 @@ title: Japanese Resources
 * [Bushu Anki Deck (Forget the Kanji)](https://github.com/chriskempson/bushu-anki-deck)
 * [Core Anime Deck](https://ankiweb.net/shared/info/493795566)
 * [Kanji Components with Hiragana Names](https://ankiweb.net/shared/info/390273931)
+* [Japanese Proper Nouns](https://ankiweb.net/shared/info/3885156604)
 
 ## Listening
 
@@ -85,6 +86,8 @@ title: Japanese Resources
 * [Read Your Level](http://readyourlevel.jamesknelson.com/browse)
 * [Kiwi Browser](https://kiwibrowser.com/)
   * Mobile app that works with chrome addons. Allows you to read with yomichan on mobile.
+* [Soseki Project](http://sosekiproject.org/)
+* [Sukima](https://www.sukima.me/)
 
 ## Grammar
 
@@ -121,6 +124,9 @@ title: Japanese Resources
 * [Pitch Essentials 2 - Thinking About Sentence Level Pitch Accent](https://www.youtube.com/watch?v=ElMee_jx7Mo)
 * [Why you have an accent and why listening is hard](https://twitter.com/OutlierLinguist/status/1147037040799883264)
 * [Your Japanese will sound more natural using the breathing technique](https://www.youtube.com/watch?v=s64R23LKhjw)
+* [Shadowing Step By Step](https://www.youtube.com/watch?v=130bOvRpt24)
+* [Pronunciation Self-Analysis through "Flow-verlapping"](https://www.youtube.com/watch?v=jEStFcRQSbE)
+* [Quality Practise Pronunciation With Audacity – The Best Method!](https://www.researchgate.net/publication/285234145_Quality_Practise_Pronunciation_With_Audacity_-_The_Best_Method)
 
 ## Writing
 
@@ -163,6 +169,7 @@ title: Japanese Resources
 * [ttu Reader](https://ttu-ebook.web.app/)
   * In-browser ebook reader
 * [youtube-dl](https://github.com/ytdl-org/youtube-dl)
+* [Immersion Kit Dictionary](https://immersionkit.com/dictionary)
 
 ## Visual Novels
 
@@ -179,6 +186,7 @@ title: Japanese Resources
 * [vndb](https://vndb.org/)
 * [Novel Game Collection](https://novelgame.jp/)
 * [Game2Text](https://game2text.com/)
+  * [Video Tutorial](https://www.youtube.com/watch?v=rpdOr7lZzcg)
 
 ## Articles
 
