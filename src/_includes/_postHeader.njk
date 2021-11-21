@@ -1,11 +1,13 @@
 {%- if tags != null -%}
 {%- if tags.includes("post") -%}
-<div id="postHeader">
-    <div id="postHeaderBackground" class="pattern-dots-xl">{{title}}</div>
-    <div id="postHeaderContent">
-        <h1 id="postTitle">{{title}}</h1>
-        <div id="postDate">{{date | postDate}}</div>
-        <div id="postDescription">{{description}}</div>
+<div class="postHeader">
+    <div class="postHeaderBackground pattern-dots-xl">{{title}}</div>
+    <div class="postHeaderContentWrapper">
+        <div class="postHeaderContent">
+            <h1 class="postTitle">{{title}}</h1>
+            <div class="postDate">{{date | postDate}}</div>
+            <div class="postDescription">{{description}}</div>
+        </div>
     </div>
 </div>
 {%- endif -%}
