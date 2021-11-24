@@ -4,6 +4,7 @@ const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const posthtml = require("posthtml");
 const markdownIt = require('markdown-it');
+const img2picture = require("eleventy-plugin-img2picture");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/japanese_glosser");
@@ -87,6 +88,13 @@ module.exports = function (eleventyConfig) {
     })
 
     eleventyConfig.addPlugin(syntaxHighlight);
+
+    eleventyConfig.addPlugin(img2picture, {
+        eleventyInputDir: "src",
+        imagesOutputDir: "../public/images",
+        urlPath: "/images/",
+        formats: ["avif", "webp", "png", "jpeg"]
+    });
 
     return {
         dir: {
