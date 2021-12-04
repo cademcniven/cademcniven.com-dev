@@ -10,9 +10,9 @@ title: Eminent Note Type V2
 
 {{description}}
 
-***Updated 7/10/2021***
+***Updated 12/4/2021***
 
-[Download](https://mega.nz/file/rRUlFAya#k6hv6vyro4tHnzgg1pitSuiLOIaxeaPIsfk0npoUDjE)
+[Download](https://mega.nz/file/TN10nDIA#Qq0SmyrhhlA-AJUW3PefICyfhdAh8yE4rNLY0YaHZz8)
 
 ![front side of the card](/images/notetype2/card_front.png)
 
@@ -24,7 +24,8 @@ title: Eminent Note Type V2
 * Audio on back with audio icons overlayed on the image.
 * Shows dictionary form of the target word at the top, and automatically highlights the conjugated version of the word in the sentence.
 * Shows reading of the target word as furigana.
-* Colors the dictionary form of the word based on its pitch pattern (using 0 javascript).
+* Colored box indicates pitch pattern of the word (using 0 javascript).
+* Alternative bold coloring for proper noun cards
 * Tested on both desktop and mobile
 
 ## How To Use
@@ -34,6 +35,16 @@ Once you've used the download link at the top of this page, it should have impor
 Now all you have to do is add new cards, or convert existing cards to this note type.
 
 This note type was specifically created to be used with the workflow described in [Sentence Mining With Yomichan & Animebook](/posts/20210703).
+
+## Proper Noun Cards
+
+For those who would like to learn to read proper nouns through mining rather than the [proper nouns deck](https://ankiweb.net/shared/info/3885156604), I've overridden the **bold** styling on the card to change the color of text. This means, whenever you mine a proper noun, you can simply make the **wordDictionaryForm** bold, and the color of the word on the card will change to yellow. This will indicate that you only need to test yourself on the reading, not the meaning.
+
+![front side of the card with proper noun highlighting](/images/notetype2/proper_noun.png)
+
+Of course, even if you aren't mining proper nouns, this feature may also be useful for cards that have many definitions, and you want to focus on only one or two.
+
+![back side of the card with definition highlighting](/images/notetype2/highlighted_definition.png)
 
 ## Pitch Accent Colors
 
@@ -61,32 +72,62 @@ By default, I have the following CSS on the note type:
 /****** colors ******/
 :root {
 	--red: #fd5c5c;
-	--blue: #42CAFD;
+	--blue: #89daff;
 	--orange: #fca311;
-	--green: #75C1A3;
-	--purple: #D4CBE5;
+	--green: #4e937a;
+	--purple: #afa2ff;
 }
 
 /****** pitch accent colors ******/
 
-.heiban {
-	color: var(--blue);
+.heiban::before {
+	content: "";
+	display: inline-block;
+	height: 0.7ch;
+	width: 0.7ch;
+	margin-right: 10px;
+	margin-bottom: 0.3ch;
+	background-color: var(--blue);
 }
 
-.atamadaka {
-	color: var(--red);
+.atamadaka::before {
+	content: "";
+	display: inline-block;
+	height: 0.7ch;
+	width: 0.7ch;
+	margin-right: 10px;
+	margin-bottom: 0.3ch;
+	background-color: var(--red);
 }
 
-.nakadaka {
-	color: var(--orange);
+.nakadaka::before {
+	content: "";
+	display: inline-block;
+	height: 0.7ch;
+	width: 0.7ch;
+	margin-right: 10px;
+	margin-bottom: 0.3ch;
+	background-color: var(--orange);
 }
 
-.odaka {
-	color: var(--green);
+.odaka::before {
+	content: "";
+	display: inline-block;
+	height: 0.7ch;
+	width: 0.7ch;
+	margin-right: 10px;
+	margin-bottom: 0.3ch;
+	background-color: var(--green);
 }
 
-.kifuku {
-	color: var(--purple);
+.kifuku::before {
+	content: "";
+	display: inline-block;
+	height: 0.7ch;
+	width: 0.7ch;
+	margin-right: 10px;
+	margin-bottom: 0.3ch;
+	background-color: var(--purple);
 }
 ```
 
@@ -95,13 +136,6 @@ If you want to change the colors, you can just change the hex code inside of `:r
 The color I chose for each pitch pattern is the same as [Migaku Japanese](https://www.migaku.io/tools-guides/migaku-japanese/manual/#pitch-accent-coloring), so if you're already used to their system you won't need to re-learn another. If you want to use different colors for the various pitch patterns, just change which variable is used. For example, change `var(--green)` to `var(--blue)`, etc.
 
 If you don't want pitch coloring at all, you can just remove that CSS and the word will be white.
-
-By default, pitch coloring is only shown on the back of the card. If you want coloring on the front as well, you need to remove the `class="white"` from a div on the front side of the card.
-
-```html
-	<!---------------- If you want pitch coloring on the front, remove the "white" class below ---------------->
-	<div id="word" class="white">
-```
 
 Since the word is simply tagged with a class based on pitch, you're not limited to just colors for styling, you can use [any css](https://www.w3schools.com/css/) on it. Feel free to get creative.
 
@@ -154,6 +188,11 @@ The pitch accent graph of ***wordDictionaryForm***.
 Rarity of ***wordDictionaryForm*** according to some frequency list(s).
 
 ## Changelog
+
+* 12/4/2021
+  * Updated pitch accent colors.
+  * Removed pitch accent colors from the wordDictionaryForm, and instead made a colored square next to the word.
+  * Added style overrides to bold text, to accomodate proper noun mining and definition highlighting.
 
 * 7/10/2021
   * Added pitch accent coloring.
