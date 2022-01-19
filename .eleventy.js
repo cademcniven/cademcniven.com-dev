@@ -14,12 +14,14 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/**/*.jpg");
     eleventyConfig.addPassthroughCopy("src/**/*.png");
     eleventyConfig.addPassthroughCopy("src/**/*.gif");
+    eleventyConfig.addPassthroughCopy("src/**/*.webmanifest");
     eleventyConfig.addWatchTarget("src/japanese_glosser");
     eleventyConfig.addWatchTarget("src/scripts");
     eleventyConfig.addWatchTarget("src/**/*.css");
     eleventyConfig.addWatchTarget("src/**/*.jpg");
     eleventyConfig.addWatchTarget("src/**/*.png");
     eleventyConfig.addWatchTarget("src/**/*.gif");
+    eleventyConfig.addWatchTarget("src/**/*.webmanifest");
 
     const markdownItOptions = {
         html: true,
