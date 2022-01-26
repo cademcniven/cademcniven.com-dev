@@ -9,6 +9,7 @@ const img2picture = require("eleventy-plugin-img2picture");
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/japanese_glosser");
     eleventyConfig.addPassthroughCopy({ "src/gloss.html": "/gloss.html" });
+    eleventyConfig.addPassthroughCopy({ "../textReader/textReader.html": "/textReader.html" });
     eleventyConfig.addPassthroughCopy("src/scripts");
     eleventyConfig.addPassthroughCopy("src/**/*.css");
     eleventyConfig.addPassthroughCopy("src/**/*.jpg");
