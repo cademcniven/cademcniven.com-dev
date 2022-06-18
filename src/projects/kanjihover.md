@@ -8,9 +8,11 @@ title: Kanji Hover
 
 # {{title}}
 
+***Updated 6/18/2022***
+
 A kanji script for Anki
 
-[Download](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV2.1)
+[Download](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV3)
 
 [Changelog](https://github.com/cademcniven/Kanji-Hover/blob/main/Changelog.md)
 
@@ -20,11 +22,10 @@ A kanji script for Anki
 
 * Hover any kanji for information about its grade level, meanings, and readings.
 * Customize which portion of the card to apply the script to.
-* Middle-mouse-click to open the Wikitionary page for that kanji.
 
 ## How To Use
 
-[Download \_kanjiHover.js](https://github.com/cademcniven/Kanji-Hover/releases/) and add it to your collection.media folder.
+[Download \_kanjiHover.js](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV3) and add it to your collection.media folder.
 Add the following line to your note:
 
 ```html
@@ -47,8 +48,6 @@ The css for the popup can be changed in two ways:
 **This script is not compatible with the "kanjax with koohii" script.** If you try to use both, very bad things will happen. I'm still investigating the reason for the incompatibility, and I'll update the script if I figure it out.
 
 **This script is not compatible with the Migaku Japanese addon.** Both this script and Migaku Japanese work by injecting html into the card, but they end up breaking each other in the process. I *might* try to fix this someday.
-
-**You may experience undesired appearance if your card css styles the "a" tag.** Because this script wraps all kanji in links, any styling that you give to links in your card will be automatically applied to all kanji as well. If you *don't* have links styled, the kanji should, by default, look like the rest of your text.
 
 **This script can cause issues with ichi.moe, or other embedded sites.** If you use an embed like that, make sure that it is not contained within `<div id="kanjiHover">`.
 

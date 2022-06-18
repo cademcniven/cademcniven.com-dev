@@ -12,11 +12,11 @@ title: Eminent Note Type V2.3
 
 {% raw %}
 
-***Updated 6/17/2021***
+***Updated 6/18/2022***
 
 **If you're migrating from a version earlier than v2.3, please see the bottom of the page for migration instructions**
 
-[Download](https://mega.nz/file/fFVGEADL#RQQdI91Ee6WrNbtrnU_a6QvL6KMVqYdtBL81Eo3KNeg)
+[Download](https://mega.nz/file/7NNxkDiD#pC4F5GQkb4XgASrt62Lst6u9SKSJGzNex4WMecKaQB0)
 
 ![front side of the card](/images/notetype2/card_front.png)
 
@@ -24,7 +24,7 @@ title: Eminent Note Type V2.3
 
 ## Features
 
-* [Kanji Hover](/projects/kanjihover) on the front and back **(this is temporarily disabled while I fix a bug in the script)**
+* [Kanji Hover](/projects/kanjihover) on the front and back
 * Audio on back with audio icons overlayed on the image.
 * Shows dictionary form of the target word at the top, and automatically highlights the conjugated version of the word in the sentence.
 * Shows reading of the target word as furigana, with pitch drops marked. __*__
@@ -385,6 +385,9 @@ If you're using my note type in conjunction with [animebook](/posts/20210703), y
 The only change to the animebook settings is that it will only add a sentence to the card if the sentence field is blank. Feel free to just change that setting instead of re-importing if you want.
 
 ## Changelog
+
+* 6/18/2022
+  * Rewrote [Kanji Hover](/projects/kanjihover) and re-enabled it in the note type
 
 * 6/17/2022
   * Changed dictionary centering css to be on card instead of in handlebars

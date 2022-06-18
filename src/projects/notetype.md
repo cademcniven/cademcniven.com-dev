@@ -8,6 +8,8 @@ title: Eminent Note Type
 
 # {{title}}
 
+**6/18/2022 edit: this note type is no longer being maintained, and you should probably use [Eminent Note Type V2](/projects/notetype2/) instead.**
+
 A note type for learning Japanese with Anki
 
 [Download](https://mega.nz/folder/3ENBFSwJ#OxUmvGmoY6J46Dn_YFhIMQ)
