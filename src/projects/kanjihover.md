@@ -8,11 +8,11 @@ title: Kanji Hover
 
 # {{title}}
 
-***Updated 6/18/2022***
+***Updated 7/10/2022***
 
 A kanji script for Anki
 
-[Download](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV3)
+[Download](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV3.1)
 
 [Changelog](https://github.com/cademcniven/Kanji-Hover/blob/main/Changelog.md)
 
@@ -25,7 +25,7 @@ A kanji script for Anki
 
 ## How To Use
 
-[Download \_kanjiHover.js](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV3) and add it to your collection.media folder.
+[Download \_kanjiHover.js](https://github.com/cademcniven/Kanji-Hover/releases/tag/kanjiHoverV3.1) and add it to your collection.media folder.
 Add the following line to your note:
 
 ```html
@@ -45,13 +45,7 @@ The css for the popup can be changed in two ways:
 
 ## Compatibility & Issues
 
-**This script is not compatible with the "kanjax with koohii" script.** If you try to use both, very bad things will happen. I'm still investigating the reason for the incompatibility, and I'll update the script if I figure it out.
-
-**This script is not compatible with the Migaku Japanese addon.** Both this script and Migaku Japanese work by injecting html into the card, but they end up breaking each other in the process. I *might* try to fix this someday.
-
-**This script can cause issues with ichi.moe, or other embedded sites.** If you use an embed like that, make sure that it is not contained within `<div id="kanjiHover">`.
-
-Other than that, there very well may be more errors that come up. If you find anything, either make an issue or message me on Discord.
+This script may have issues with other addons or scripts that modify the html of your cards. In those cases there's not a whole lot I can do to prevent it. Other than that, if you find anything, either make an issue or message me on Discord.
 
 ## Sources
 
