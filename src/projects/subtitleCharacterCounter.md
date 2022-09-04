@@ -18,6 +18,8 @@ title: Subtitle Character Counter
 * Works with pretty much any format
 * Works on desktop and mobile
 * Doesn't count alphanumeric characters or punctuation
+* Removes characters within parenthesis (usually in subtitles this text is furigana or accessibility text)
+* Doesn't remove characters within parenthesis if there's an odd number of parenthesis, so fucked up subtitle files should still work-ish
 
 ## How To Use
 
