@@ -5,7 +5,7 @@ title: Projects
 
 <div id="posts">
     <ul>
-        {%- for project in collections.project -%}
+        {%- for project in collections.project | reverse -%}
         <li>
             <div class="postListTitle">
                 <a href="{{ project.url }}">{{ project.data.title }}</a>
