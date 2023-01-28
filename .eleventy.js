@@ -5,6 +5,9 @@ const htmlmin = require("html-minifier");
 const posthtml = require("posthtml");
 const markdownIt = require('markdown-it');
 const img2picture = require("eleventy-plugin-img2picture");
+const slugify = require("slugify");
+const markdownItAnchor = require("markdown-it-anchor");
+const pluginTOC = require('eleventy-plugin-nesting-toc');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/japanese_glosser");
@@ -24,6 +27,45 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("src/**/*.png");
     eleventyConfig.addWatchTarget("src/**/*.gif");
     eleventyConfig.addWatchTarget("src/**/*.webmanifest");
+
+    const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
+        class: "anchor",
+        symbol: "<span hidden>#</span>",
+        style: "aria-labelledby",
+    });
+
+    const markdownItAnchorOptions = {
+        level: [2, 3, 4, 5],
+        slugify: (str) =>
+            slugify(str, {
+                lower: true,
+                strict: true,
+                remove: /["]/g,
+            }),
+        tabIndex: false,
+        permalink(slug, opts, state, idx) {
+            state.tokens.splice(
+                idx,
+                0,
+                Object.assign(new state.Token("div_open", "div", 1), {
+                    // Add class "header-wrapper [h1 or h2 or h3]"
+                    attrs: [["class", `heading-wrapper ${state.tokens[idx].tag}`]],
+                    block: true,
+                })
+            );
+
+            state.tokens.splice(
+                idx + 4,
+                0,
+                Object.assign(new state.Token("div_close", "div", -1), {
+                    block: true,
+                })
+            );
+
+            linkAfterHeader(slug, opts, state, idx + 1);
+        },
+    };
+
 
     const markdownItOptions = {
         html: true,
@@ -52,7 +94,25 @@ module.exports = function (eleventyConfig) {
         return md.render(string)
     })
 
-    eleventyConfig.setLibrary('md', md);
+
+    eleventyConfig.addFilter("slug", (str) => {
+        if (!str) {
+            return;
+        }
+
+        return slugify(str, {
+            lower: true,
+            strict: true,
+            remove: /["]/g,
+        });
+    });
+
+    /* Markdown Overrides */
+    let markdownLibrary = markdownIt({
+        html: true,
+    }).use(markdownItAnchor, markdownItAnchorOptions);
+
+    eleventyConfig.setLibrary('md', markdownLibrary);
 
     eleventyConfig.addCollection("notes", function (collection) {
         return collection.getFilteredByGlob(["src/notes/**/*.md", "index.md"]);
@@ -92,6 +152,9 @@ module.exports = function (eleventyConfig) {
     })
 
     eleventyConfig.addPlugin(syntaxHighlight);
+    eleventyConfig.addPlugin(pluginTOC, {
+        tags: ['h2', 'h3', 'h4', 'h5']
+    });
 
     eleventyConfig.addPlugin(img2picture, {
         eleventyInputDir: "src",

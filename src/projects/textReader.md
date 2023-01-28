@@ -6,8 +6,6 @@ description: A web page for viewing Japanese text files in the browser for use w
 title: TextReader
 ---
 
-# {{title}}
-
 A web page for viewing Japanese text files in the browser for use with Yomichan.
 
 [Use it here](/textReader.html)

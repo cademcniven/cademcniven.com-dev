@@ -6,7 +6,6 @@ description: A Japanese sentence glossing utility for Anki. Finds words in a Jap
 title: JAGloss
 ---
 
-# {{title}}
 {% raw %}
 A Japanese sentence glossing tool for Anki
 

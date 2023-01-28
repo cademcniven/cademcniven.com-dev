@@ -6,8 +6,6 @@ description: A custom Anki note type for studying Japanese. Specifically optimiz
 title: Eminent Note Type V2.3
 ---
 
-# {{title}}
-
 {{description}}
 
 {% raw %}

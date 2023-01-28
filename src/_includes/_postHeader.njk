@@ -1,13 +1,15 @@
 {%- if tags != null -%}
-{%- if tags.includes("post") -%}
+
 <div class="postHeader">
     <div class="postHeaderBackground pattern-dots-xl"></div>
     <div class="postHeaderContentWrapper">
         <div class="postHeaderContent">
             <h1 class="postTitle"><span>{{title}}</span></h1>
+            {%- if date | postDate != "Invalid DateTime" -%}
             <div class="postDate"><span>{{date | postDate}}</span></div>
+            {%- endif -%}
         </div>
     </div>
 </div>
-{%- endif -%}
+
 {%- endif -%}

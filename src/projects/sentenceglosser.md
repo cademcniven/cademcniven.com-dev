@@ -6,10 +6,6 @@ description: A website that provides a gloss of a Japanese sentence. Meant to be
 title: Japanese Sentencer Gloss Utility For Anki
 ---
 
-# {{title}}
-
-------------
-
 A website that provides a gloss of a japense sentence, designed to be embedded into Anki cards.
 
 ![demo](/images/sentenceglosser/demo.gif)

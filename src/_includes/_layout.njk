@@ -13,7 +13,16 @@ site_title: Cade's Site & Blog
         </header>
         <main>
             {% include "_postHeader.njk" %}
+
             <div id="content">
+                {%- if content | toc | safe != "" -%}
+                <div class="tableOfContents">
+                    <h2>Contents</h2>
+                    {{content | toc | safe}}
+                </div>
+                <hr>
+                {%- endif -%}
+
                 {{ content | safe }}
             </div>
         </main>

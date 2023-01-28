@@ -6,8 +6,6 @@ description: A web page for counting the number of Japanese characters in subtit
 title: Subtitle Character Counter
 ---
 
-# {{title}}
-
 {{description}}
 
 [Use it here](/subtitleCharacterCounter.html)

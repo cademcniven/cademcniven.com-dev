@@ -6,8 +6,6 @@ description: A script for Anki that provides information about a kanji by hoveri
 title: Kanji Hover
 ---
 
-# {{title}}
-
 ***Updated 7/10/2022***
 
 A kanji script for Anki
