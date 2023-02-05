@@ -10,7 +10,7 @@ title: Eminent Note Type V2.4
 
 {% raw %}
 
-***Updated 01/28/2023***
+***Updated 02/05/2023***
 
 If you're migrating from a previous version version, please see the [Migration Instructions](#migrating-from-previous-versions)
 
