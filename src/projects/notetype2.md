@@ -528,7 +528,7 @@ If that worked correctly for you, you'll then want to update to my new Yomichan 
 
 After that, you can just select all of your V2.3 cards, and `Change Note Type` to 2.4. The `word` field has been removed, and some fields have been reordered, but as long as you just match the names of the fields it should be fine.
 
-Finally, follow the instructions for [Ordering Cards By Frequency](http://localhost:8080/projects/notetype2/#order-cards-by-frequency)
+Finally, follow the instructions for [Ordering Cards By Frequency](#order-cards-by-frequency)
 
 ### Migrating From Versions Prior to V2.3
 
