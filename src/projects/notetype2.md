@@ -500,6 +500,8 @@ If you're upgrading from a previous version of my note type, there may be extra 
 
 The biggest change between V2.3 and V2.4 is how Yomichan will export frequency information (to allow you to sort by the frequency field). Because of this, as well as new styling, you need update the frequency of all of your old cards in order to convert to the updated note type. Luckily, `Aquafina water bottle#3026` has written a script to do that for you automatically.
 
+<aside>If you don't have git installed, then you can go to <a href="https://github.com/MarvNC/JP-Resources">https://github.com/MarvNC/JP-Resources</a>, click the green "Code" button, download the zip, and extract it. This is functionally identical to git clone</aside>
+
 To do this you'll want to follow the instructions on [Marv's github page](https://github.com/MarvNC/JP-Resources#backfilling-old-cards) on how to backfill old cards. Make sure to follow the command line version.
 
 Before running any commands, I'd recommend backing up your Anki collection. You can do this within Anki by doing `File > Create Backup`.
@@ -515,10 +517,10 @@ cd frequency
 However, when you get to the step to actually run the backfill script, you'll want to use the following command (not listed on his page):
 
 ```bash
-python backfill.py "wordDictionaryForm" --freq-field "frequency"
+python backfill.py "wordDictionaryForm" --query "\"note:Eminent V2.3\"" --freq-field "frequency" --default 999999
 ```
 
-This will update any of my previous note types to have the proper frequency information on them.
+This will update any of my previous note types to have the proper frequency information on them. This command will not work on Powershell.
 
 If it worked, your cards' frequency field should look like this
 
