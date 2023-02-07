@@ -10,7 +10,7 @@ title: Eminent Note Type V2.4
 
 {% raw %}
 
-***Updated 02/05/2023***
+***Updated 02/07/2023***
 
 If you're migrating from a previous version version, please see the [Migration Instructions](#migrating-from-previous-versions)
 
@@ -497,6 +497,8 @@ The AutoReorder addon will automatically reposition your new cards every time yo
 If you're upgrading from a previous version of my note type, there may be extra steps you need to do to convert your cards to the newer version.
 
 ### Migrating From V2.3
+
+**Before trying to migrate old cards to V2.4, make sure you have [set up V2.4](#how-to-use)**
 
 The biggest change between V2.3 and V2.4 is how Yomichan will export frequency information (to allow you to sort by the frequency field). Because of this, as well as new styling, you need update the frequency of all of your old cards in order to convert to the updated note type. Luckily, `Aquafina water bottle#3026` has written a script to do that for you automatically.
 
