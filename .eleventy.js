@@ -19,6 +19,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/**/*.jpg");
     eleventyConfig.addPassthroughCopy("src/**/*.png");
     eleventyConfig.addPassthroughCopy("src/**/*.gif");
+    eleventyConfig.addPassthroughCopy("src/**/*.svg");
     eleventyConfig.addPassthroughCopy("src/**/*.webmanifest");
     eleventyConfig.addWatchTarget("src/japanese_glosser");
     eleventyConfig.addWatchTarget("src/scripts");
